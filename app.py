@@ -181,5 +181,3 @@ with library:
                 c.execute('DELETE FROM fragmentos WHERE doc_id=?',(doc_id,))
                 c.execute('DELETE FROM documentos WHERE id=?',(doc_id,))
             st.rerun()
-                c.execute('DELETE FROM documentos WHERE id=?',(doc_id,))
-            st.rerun()
